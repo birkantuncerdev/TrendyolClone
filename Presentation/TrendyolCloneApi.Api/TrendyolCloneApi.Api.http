@@ -1,0 +1,6 @@
+@TrendyolCloneApi.Api_HostAddress = http://localhost:5280
+
+GET {{TrendyolCloneApi.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

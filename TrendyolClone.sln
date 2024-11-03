@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E2AC386B-A6C7-4A3A-A33D-6530DBFDF6E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F01CF50D-4CF2-4D20-9A39-3A39B4B4AE4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C1940242-203F-4D39-8CEF-C446987944F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyolCloneApi.Application", "Core\TrendyolCloneApi.Application\TrendyolCloneApi.Application.csproj", "{D490A678-5422-41C0-AC64-FC397719EC98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyolCloneApi.Domain", "Core\TrendyolCloneApi.Domain\TrendyolCloneApi.Domain.csproj", "{15C212D8-D86C-43FF-971B-8055F1D11033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyolCloneApi.Infrastructure", "Infrastructure\TrendyolCloneApi.Infrastructure\TrendyolCloneApi.Infrastructure.csproj", "{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyolCloneApi.Persistence", "Infrastructure\TrendyolCloneApi.Persistence\TrendyolCloneApi.Persistence.csproj", "{7324E64D-7815-413A-92F9-A8464709C3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendyolCloneApi.Api", "Presentation\TrendyolCloneApi.Api\TrendyolCloneApi.Api.csproj", "{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D490A678-5422-41C0-AC64-FC397719EC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D490A678-5422-41C0-AC64-FC397719EC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D490A678-5422-41C0-AC64-FC397719EC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D490A678-5422-41C0-AC64-FC397719EC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C212D8-D86C-43FF-971B-8055F1D11033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C212D8-D86C-43FF-971B-8055F1D11033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C212D8-D86C-43FF-971B-8055F1D11033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C212D8-D86C-43FF-971B-8055F1D11033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7324E64D-7815-413A-92F9-A8464709C3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7324E64D-7815-413A-92F9-A8464709C3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7324E64D-7815-413A-92F9-A8464709C3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7324E64D-7815-413A-92F9-A8464709C3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D490A678-5422-41C0-AC64-FC397719EC98} = {E2AC386B-A6C7-4A3A-A33D-6530DBFDF6E3}
+		{15C212D8-D86C-43FF-971B-8055F1D11033} = {E2AC386B-A6C7-4A3A-A33D-6530DBFDF6E3}
+		{508BB0D7-E2F9-44D5-B981-F7C16DD33FAA} = {C1940242-203F-4D39-8CEF-C446987944F2}
+		{7324E64D-7815-413A-92F9-A8464709C3EB} = {C1940242-203F-4D39-8CEF-C446987944F2}
+		{E8C66DB0-C0B8-40C5-B0CA-7DC143BFBF8D} = {F01CF50D-4CF2-4D20-9A39-3A39B4B4AE4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97879E72-ED77-4A9E-B451-B369AAB0EFA1}
+	EndGlobalSection
+EndGlobal
